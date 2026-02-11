@@ -4,6 +4,9 @@ export PATH=/opt/homebrew/bin:"$PATH"
 autoload -U compinit
 compinit -u
 
+setopt auto_cd
+setopt correct
+
 # prompt
 PROMPT="%{${fg[blue]}%}[%~]%{${reset_color}%}%% "
 PROMPT2="%_%% "
