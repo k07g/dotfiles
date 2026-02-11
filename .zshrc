@@ -8,3 +8,7 @@ compinit -u
 PROMPT="%{${fg[blue]}%}[%~]%{${reset_color}%}%% "
 PROMPT2="%_%% "
 SPROMPT="%r is correct? [n,y,a,e]:] "
+
+# alias setting
+alias ls='eza -Grt changed'
+alias ll='eza -l -r -t changed'
